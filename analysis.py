@@ -19,7 +19,7 @@ EXPECTED_RUNTIME_MINUTES = 1440  # runtime of 1 day (1440 min)
 # -----------------------------
 # LOAD DATA
 # -----------------------------
-def load_data(filepath="robot_data.csv"):
+def load_data(filepath="robot_data_realistic.csv"):
     df = pd.read_csv(filepath)
 
     # Ensure datetime format

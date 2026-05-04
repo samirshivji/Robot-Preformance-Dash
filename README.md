@@ -20,16 +20,12 @@ The dataset was simulated to reflect real-world conditions, where factors such a
 
 ### Fleet Performance Over Time
 
-> _Describe what trends you observed across the fleet over the 30-day period. Did errors increase over time? Did battery levels decline? Were there any noticeable dips or spikes in task completion on certain days?_
-
 **Findings:**
 Within my "Completion Rate Over Time" line graph, I found that overall complation rate declined overtime. My next objective was to find out what factors played a role in the decline of performance. My initial thoughts were that the decline in performance could be from any of the following reasons: battery percentage, total uptime, system errors, hardware complications, process complications
 
 ---
 
 ### Error Count vs Completion Rate
-
-> _Describe the relationship between error count and task completion rate. Was there a clear negative correlation? Did robots with higher error counts consistently complete fewer tasks? Were there any outliers?_
 
 **Findings:**
 I used a scatter plot graph to visualize the correlation between the average error count per unique robot and their average completion rate. With the dataset I analyzed, I found that as the error counts increased, the completion rate decreased. This means that the errors were causing problems such as downtime and failed processes. This shows to be one of the reasons complaetion rates were declining. My next thought was to find out what the root cause of these errors could have possibly been, could it be avoidable or were these errors strictly unpredictable?
@@ -38,15 +34,11 @@ I used a scatter plot graph to visualize the correlation between the average err
 
 ### Uptime vs Error Count
 
-> _Describe what the scatter plot revealed about the relationship between uptime and errors. Did robots with longer runtimes tend to produce more errors? Was the correlation strong or weak? Did certain robots cluster differently?_
-
 **Findings:**
 In my "Uptime vs Error Count" graph, I plotted every error and where it was in terms of uptime in respect to each robot. From this graph I was able to see a slight increase in errors towards the higher uptime values. This is consistent with my fidings on how when uptime increases, error counts increase. One thing that this could indicate is that as uptime increases, battery life decreases and posssible leads to higher error counts. 
 ---
 
 ### Average Uptime vs Average Errors
-
-> _Describe what this chart showed when looking at per-robot averages. Did robots with consistently high average uptime also have the highest average error counts? Were any robots high uptime but low error — and what might explain that?_
 
 **Findings:**
 This graph was interesting. As I looked it over, I found that as uptime increased, the error counts seems to stay consitent throughout. Within the graph I was able to see that towards the mid ranges of uptime, there seems to be more total errors logged which could indicate failures in battery life or uptime complications. 
@@ -54,15 +46,11 @@ This graph was interesting. As I looked it over, I found that as uptime increase
 
 ### Average Uptime vs Completion Rate
 
-> _Describe the relationship between average uptime and how much work robots actually finished. Did more uptime translate to better completion, or did fatigue/errors erode that advantage? What does this suggest about optimal operating hours?_
-
 **Findings:**
 Within my "Avg Uptime vs Completion Rate" graph I was able to identify a slight "V" shaped trend line. This could be due to the fact that as the robots batterys depleated, they were recharged and took a break, which inturn could have increased their completion rate after the fact. 
 ---
 
 ### Average Battery Level vs Error Count
-
-> _Describe the relationship between average battery level and how many errors were logged._
 
 **Findings:**
 In the Bettery Level vs Error Count graph I was able to find a clear correlation to decreasing battery life and increasing error counts. This finding is consistent with my other findings from the previous graphs and leads me to believe that the battery life has plays a vital role to overall fleet performance.  
